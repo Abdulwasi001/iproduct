@@ -1,0 +1,389 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.logo {
+    width: 140px;
+    height: 30px;
+}
+
+section {
+    padding: 6rem 0px;
+}
+
+.bg-gray {
+    background: #F3F3F3;
+}
+
+.bg-dark {
+    background: #030300;
+}
+
+.btn {
+    color: #fff;
+    letter-spacing: 1px;
+    background: #a53692;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #b60799;
+}
+
+.r-5 {
+    border-radius: 5px;
+}
+
+.r-10 {
+    border-radius: 10px;
+}
+
+
+header {
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
+}
+
+header .navbar {
+    display: flex;
+}
+
+header .navbar .navbar-link  ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+header .navbar .navbar-link  ul li a {
+    color: gray;
+    font-weight: 500;
+    transition: 0.5s ease;
+    letter-spacing: 1px;
+}
+
+header .navbar .navbar-link  ul li a:hover {
+    color: #a53692;
+}
+
+#main h1 {
+    font-size: 3rem;
+}
+
+#main h1 span {
+    color: #a53692;
+}
+
+#main p {
+    color: gray;
+    font-size: 14px;
+    width: 80%;
+    margin: 1.5rem 0px;
+}
+
+#features .txt {
+    text-align: center;
+}
+
+#features .txt .mi {
+    color: rgb(77, 76, 76);
+    margin-top: 20px;
+}
+
+#features .txt .exellent {
+    margin: 20px 0px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+#features .txt .dev {
+    width: 55%;
+    margin: auto;
+    color: rgb(77, 76, 76);
+    margin-bottom: 4rem;
+}
+
+#features .box-item {
+    background: #fff;
+    padding: 30px;
+    width: 25%;
+    height: 23rem;
+}
+
+#features .box-item .icon {
+    width: 50px;
+    height: 50px;
+}
+
+#features .box-item h4 {
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+#features .box-item p {
+    color: rgb(77, 76, 76);
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#features .box-item .float-right {
+    float: right;
+}
+
+#specs .img-box,
+#specs .txt {
+    width: 50%;
+}
+
+#specs .img-box img {
+    width: 100%;
+}
+
+#specs .txt h2 {
+    font-size: 25px;
+}
+
+#specs .txt p {
+    margin: 20px 0px;
+    color: gray;
+}
+
+.sp {
+    height: 400px;
+}
+
+.sp .img-box,
+.sp .txt {
+    width: 50%;
+}
+
+.sp .img-box img {
+    width: 100%;
+    height: 400px;
+}
+
+.sp .txt h2 {
+    font-size: 35px;
+}
+
+.sp .txt p {
+    margin: 20px 0px;
+}
+
+#reviews .review-box {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#reviews .review-box .review-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#reviews .review-box h4 {
+    margin: 20px 0px;
+}
+
+.dark-section {
+    height: 500px;
+}
+
+.dark-section .img-box,
+.dark-section .txt  {
+    width: 50%;
+}
+.dark-section .img-box img {
+    height: 500px;
+    width: 100%;
+}
+
+.dark-section .txt {
+    color: #fff;
+}
+
+.dark-section .txt .content {
+    width: 85%;
+}
+
+.dark-section .txt .content .pix {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.dark-section .txt .content h3 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.dark-section .txt .content p {
+    margin: 30px 0px;
+    font-size: 14px;
+}
+
+#pricing .img-box {
+    width: 50%;
+}
+
+#pricing .img-box img {
+    width: 100%;
+}
+
+#pricing .txt {
+    width: 40%;
+}
+
+#pricing .txt h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#pricing .txt p {
+    margin: 20px 0px;
+    width: 90%;
+}
+
+#pricing .txt h3 {
+    font-weight: 500;
+}
+
+#pricing .txt .color-img img {
+    width: 18px;
+    height: 18px;
+}
+
+#pricing .txt .price {
+    margin: 20px 0px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#pricing .txt ul {
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+#pricing .txt .amazon-label {
+    width: 150px;
+    height: 50px;
+}
+
+.subscribe {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.subscribe p {
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.subscribe form {
+    width: 85%;
+    margin: auto;
+}
+
+.subscribe form .input-box {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.subscribe form .input-box input {
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.subscribe form .input-box button {
+    width: 29%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+    padding: 4rem 0px;
+}
+
+footer .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .txt {
+    width: 50%;
+}
+
+.footer .txt p {
+    margin: 20px 0px;
+    font-size: 13px;
+    width: 80%;
+    color: rgb(87, 86, 86);
+}
+
+.footer .txt .copyright {
+    font-size: 13px;
+    color: rgb(87, 86, 86); 
+}
+
+.footer .list {
+    width: 30%;
+}
+
+.footer .list ul {
+    list-style: none;
+    font-size: 15px;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.footer .list ul li {
+    margin-bottom: 10px;
+}
+
+.footer .list ul li a {
+    color: rgb(87, 86, 86);
+}
+
+.footer .list ul li a:hover {
+    color: #b60799;
+}
